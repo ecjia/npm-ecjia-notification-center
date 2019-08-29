@@ -3,12 +3,9 @@
  */
 export class EcjiaNotificationCenter {
 
-    __notices = [];
-
-    isDebug = true;
-
     constructor() {
-
+        this.__notices = [];
+        this.isDebug = true;
     }
 
     /**
